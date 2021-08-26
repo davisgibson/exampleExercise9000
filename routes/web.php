@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ExampleController@index')->name('home');
+Route::get('/examples/create', 'ExampleController@create');
+Route::get('/examples/download', 'ExampleController@download');
+Route::get('/examples/{example}/edit', 'ExampleController@edit');
+Route::put('/examples/{example}', 'ExampleController@update');
+Route::post('/examples', 'ExampleController@store');
+Route::delete('/examples/{example}', 'ExampleController@delete');
