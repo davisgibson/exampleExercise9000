@@ -4,6 +4,7 @@ The latest and greatest of example exercises.
 ## Installation
 - Clone this repository.
 - cd into the project and run `composer install`
+- Rename `.env.example` to `.env`
 - Run `php artisan serve`
 - Visit `http://localhost:8000`
 
