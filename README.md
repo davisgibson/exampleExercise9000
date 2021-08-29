@@ -1,6 +1,9 @@
 # Example Exercise 9000
 The latest and greatest of example exercises.
 
+## Prereqs
+ - PHP 8+
+
 ## Installation
 - Clone this repository.
 - cd into the project and run `composer install`
